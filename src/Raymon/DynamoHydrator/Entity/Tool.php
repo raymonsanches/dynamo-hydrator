@@ -1,17 +1,17 @@
 <?php
 namespace Raymon\DynamoHydrator\Entity;
 
-use Raymon\DynamoHydrator\Attribute;
+use Raymon\DynamoHydrator\Annotation\Attribute;
 
 class Tool
 {
     /**
-     * @Attribute(name="color")
+     * @Attribute(name="color", type="string")
      */
     protected $color;
 
     /**
-     * @Attribute(name="height")
+     * @Attribute(name="height", type="string")
      */
     protected $height;
 

@@ -5,9 +5,9 @@
 
     $hydrator = new Hydrator();
 
-    $tool = $hydrator->hydrate('Raymon\DynamoHydrator\Entity\Tool', [
-        "color" => "red",
-        "height" => "12"
+    $tool = $hydrator->hydrate(new \Raymon\DynamoHydrator\Entity\Tool(), [
+        "color"  => ["S" => "red"],
+        "height" => ["S" => "12"]
     ]);
 
     var_dump($tool);
