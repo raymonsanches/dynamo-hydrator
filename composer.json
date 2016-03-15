@@ -1,0 +1,18 @@
+{
+    "name": "raymonsanches/dynamodb-hydrtor",
+    "description": "Hydrator Abstraction to DynamoDB",
+    "authors": [
+        {
+            "name": "Ramon Sanches",
+            "email": "ramonfilipesanches@gmail.com"
+        }
+    ],
+    "autoload": {
+    	"psr-0": { "Raymon\\": "src/" }
+	},
+    "require": {
+    	"doctrine/inflector": "1.1.*",
+        "doctrine/annotations": "1.2.*",
+        "indigophp/doctrine-annotation-autoload": "^0.1.0"
+    }
+}
